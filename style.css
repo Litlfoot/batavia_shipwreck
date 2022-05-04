@@ -1,0 +1,48 @@
+.bg1{
+    background:url("images/reckoning_1.jpg"); /* add the background image */
+    background-size: cover;/*  make the image cover the whole div */}
+.navbar{background-color: black;background-size: cover;font-size:2em;letter-spacing: 2px; margin-left: -1%; margin-right:-1%; font-family:'Roboto', sans-serif;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in Figma)divided by 16 which equals 0.875em*/
+    }
+    /* .navbar-brand{background:url("images/wa_museum_black_background.jpg");background-size: cover;height:5vh;} */
+    .navbar-brand{padding-left:5%;}
+/*     .nav-item{padding-right:10%;} */
+/*    .nav-item nav-link{padding:10%;} --trying to use family decendant */
+    .tag{
+        /*    float:right;  */  /* float the text to the right*/
+        display: flex;
+justify-content: flex-start;
+margin-left: 5%;
+              color:#ffff;/* make the text white*/
+              
+              margin-top:180px;/* the words are 140px away from the navbar in Figma*/
+              text-align:left;
+          padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+          }
+
+          .tag h1{
+
+            width:341px;/* give the H1 a width so that we wrap the text as per the design comp*/
+            font-size:9em; /* 114px font size in Figma divided by 16px= 7.125*/
+            letter-spacing: -2px;/* fix the letter-spacing*/
+            font-weight: 800;/* make the text bold*/
+            line-height:80%;/* decrease the line height*/
+            font-family: 'Cinzel', serif;
+           }
+           .barbarismbg{background-color: #237477;}
+           .barbarismbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
+           .barbarismbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
+           .exhibit {font-size: 3em;}/*  this is the link button */
+
+           .reignbg{background-color:#901532;}
+           .reignbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
+           .reignbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
+           .learn{font-size: 3em;}/*  this is the link button */
+
+           .reckoningbg{background-color:#237477;}
+           .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
+           .reckoningbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
+           .member{font-size: 3em;}/*  this is the link button */
+
+           footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif; font-size:2em;color:#ffffff;}
+           footer h3{font-size:1.5em;}
+    
