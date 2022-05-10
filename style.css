@@ -1,7 +1,7 @@
 .bg1{
-    background:url("images/reckoning_1.jpg"); /* add the background image */
+    background:url("images/painting.jpg"); /* add the background image */
     background-size: cover;/*  make the image cover the whole div */}
-.navbar{background-color: black;background-size: cover;font-size:2em;letter-spacing: 2px; margin-left: -1%; margin-right:-1%; font-family:'Roboto', sans-serif;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in Figma)divided by 16 which equals 0.875em*/
+.navbar{background-color: black;background-size: cover;font-size:0.875em;letter-spacing: 2px; margin-left: -1.5%; margin-right:-1.5%; font-family:'Roboto', sans-serif;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in Figma)divided by 16 which equals 0.875em*/
     }
     /* .navbar-brand{background:url("images/wa_museum_black_background.jpg");background-size: cover;height:5vh;} */
     .navbar-brand{padding-left:5%;}
@@ -14,35 +14,43 @@ justify-content: flex-start;
 margin-left: 5%;
               color:#ffff;/* make the text white*/
               
-              margin-top:180px;/* the words are 140px away from the navbar in Figma*/
+              margin-top:80px;/* the words are 140px away from the navbar in Figma*/
               text-align:left;
-          padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+          padding-bottom: 15%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
           }
 
           .tag h1{
-
-            width:341px;/* give the H1 a width so that we wrap the text as per the design comp*/
-            font-size:9em; /* 114px font size in Figma divided by 16px= 7.125*/
+/* . *//* give the H1 a width so that we wrap the text as per the design comp*/
+width:840px;
+            font-size:4em; /* 114px font size in Figma divided by 16px= 7.125*/
             letter-spacing: -2px;/* fix the letter-spacing*/
-            font-weight: 800;/* make the text bold*/
-            line-height:80%;/* decrease the line height*/
+            font-weight: bolder;/* make the text bold*/
+            line-height:120%;/* decrease the line height*/
             font-family: 'Cinzel', serif;
+            
            }
-           .barbarismbg{background-color: #237477;}
-           .barbarismbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
-           .barbarismbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
-           .exhibit {font-size: 3em;}/*  this is the link button */
-
+           .barbarism_image {margin-top:60px;margin-bottom:50px;}
+           .bataviashipwreck {color:#000000;}
+           .thebatavia {color:#000000;}
+           .jeronimuscornelisz {color:#000000;}
+           .barbarismbg{background-color: #237477;} 
+           .barbarismbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:3%;margin-top:25%;}
+           .barbarismbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+       
+            .maritimemuseumperth {color:#000000;}
+            .reignimage{margin-top:60px;margin-bottom:50px;}
            .reignbg{background-color:#901532;}
-           .reignbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
-           .reignbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
-           .learn{font-size: 3em;}/*  this is the link button */
-
+           .reignbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:2%;margin-top:18%;}
+           .reignbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+         
+           .fremantlemaritimemuseum {color:#000000;}
+           .reckoningimage{margin-top:60px;margin-bottom:50px;}
            .reckoningbg{background-color:#237477;}
-           .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 4em;}
-           .reckoningbg p{color:#ffffff;font-size: 3em;font-family: 'Roboto', sans-serif;}
-           .member{font-size: 3em;}/*  this is the link button */
-
-           footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif; font-size:2em;color:#ffffff;}
-           footer h3{font-size:1.5em;}
+           .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:2%;margin-top:22%;}
+           .reckoningbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+          
+   
+           .westernaustralianmuseum {color:#AD8A51;}
+           footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff;}
+         /*   footer h3{} */
     
