@@ -1,15 +1,10 @@
-/* @media only screen and (max-width: 1100px) {
-    .bg1 {
-        background: url("images/bg1.jpg");
-  
-        background-size: cover;
-        background-position: -140px;
-    }
- */
+
  @media only screen and (max-width: 1150px) {.reignbg{background-size:cover;}}
 
 @media only screen and (max-width: 992px) {
-    .barbarism_image{padding-right:50%;}
-   /*  .barbarismbg h2{padding-left:80%;} this works but image doesnt ???*/
-.barbarismbg h2{margin-top:60px;}}
+    .barbarism_image{padding-right:20%;}
+    .barbarismbg h2{padding-left:10%;margin-top:150px;}/*  this works but image doesnt ?? */
+.barbarismbg p{padding-left:10%; margin-top:20px;}
+.reignbg h2{padding-right:15%;} /* not working? */
+.reignbg p{padding-right:15%;}} /* not working? */
 
