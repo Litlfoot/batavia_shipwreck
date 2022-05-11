@@ -44,13 +44,19 @@ width:840px;
            .reignbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
          
            .fremantlemaritimemuseum {color:#000000;}
+           .reckoningbg {background-color:#237477;}
            .reckoningimage{margin-top:60px;margin-bottom:50px;}
-           .reckoningbg{background-color:#237477;}
            .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:2%;margin-top:22%;}
            .reckoningbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
           
-   
+           .btn-primary{
+            background-color: #AD8A51; border-color:#ffffff; margin-top:20px;margin-left:200px;
+        } /* how to make seperate button classes ? */
+        .btn-primary:hover{color:#fff;background-color:#DCB77A;border-color:#AD8A51}
+
+        footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff;}
            .westernaustralianmuseum {color:#AD8A51;}
-           footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff;}
-         /*   footer h3{} */
+           .footercontact{margin-top:20px;}
+           .footeroptions{margin-top:20px;}
+           .footerlocation{margin-top:20px;}
     
