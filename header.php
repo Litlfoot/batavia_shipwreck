@@ -38,7 +38,7 @@
         <!-- div for the main image the stretches to the edge of the page- -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="images/wa_museum_black_background.jpg" alt="wa museum logo"></a>
+            <a class="navbar-brand" href="#"><img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/wa_museum_black_background.jpg" alt="wa museum logo"></a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
