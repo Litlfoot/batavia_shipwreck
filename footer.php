@@ -10,10 +10,10 @@
                     <p>Email: reception@museum.wa.gov</p>
                     <p>Phone: 1300 134 081</p>
                     <h3>Follow us</h3>
-                    <img src="images/bestinsta_1.jpg" alt="instagram icon">
-                    <img src="images/twitter.jpg" alt="twitter icon">
-                    <img src="images/facebook_icon.jpg" alt="facebook icon">
-                    <img src="images/yout.jpg" alt="youtube icon">
+                    <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/bestinsta_1.jpg" alt="instagram icon">
+                    <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/twitter.jpg" alt="twitter icon">
+                    <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/facebook_icon.jpg" alt="facebook icon">
+                    <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/yout.jpg" alt="youtube icon">
                 </div>
                 <div class="col-md-4 footeroptions">
                     <p><span class="westernaustralianmuseum">Western Australian Museum</span></p>
