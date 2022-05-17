@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 order-sm-1">
-                    <img class="barbarism_image" src="http://206.189.45.97/~mesh17/ wp-content/themes/batavia_shipwreck/images/skeleton.jpg" alt="skeletal remains">
+                    <img class="barbarism_image" src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/skeleton.jpg" alt="skeletal remains">
                 </div>
                 <div class="col-md-6 order-sm-12">
                     <h2>Barbarism and rape after the wreck</h2>
@@ -35,7 +35,7 @@
                     <a class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
                 </div>
                 <div class="col-md-6">
-                    <img class="reignimage" src="http://206.189.45.97/~mesh17/ wp-content/themes/batavia_shipwreck/images/ship_replica.jpg" alt="replica of the ship">
+                    <img class="reignimage" src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/shipreplica.jpg" alt="replica of the ship">
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -44,7 +44,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="reckoningimage" src="http://206.189.45.97/~mesh17/ wp-content/themes/batavia_shipwreck/images/shipwreck.jpg" alt="part of the batavia">
+                    <img class="reckoningimage" src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/shipwreck.jpg" alt="part of the batavia">
                 </div> <!-- row -->
                 <div class="col-md-6">
                     <h2>The Reckoning</h2>
