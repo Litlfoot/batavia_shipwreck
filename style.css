@@ -33,34 +33,39 @@ width:840px;
             max-width: 100%;
             height: auto;}
            .bataviashipwreck {color:#000000;}
-           .thebatavia {color:#000000;}
-           .jeronimuscornelisz {color:#000000;}
-           .barbarismbg{background-color: #237477;} 
-           .barbarismbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:3%;margin-top:25%;}
-           .barbarismbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+           .thebatavia {color:#AD8A51;}
+           .jeronimuscornelisz {color:#AD8A51;}
+           .barbarismbg {
+            background-color: #174a4d;
+          }
+           .barbarismbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;padding-bottom:3%;margin-top:50%;}
+           .barbarismbg p{color:#ffffff;font-family: 'Roboto', sans-serif;}
+           /* .exhibit{} -----> this is first button class */
        
-            .maritimemuseumperth {color:#000000;}
+            .maritimemuseumperth {color:#AD8A51;}
             .reignimage{margin-top:60px;margin-bottom:50px;width: 100%;
                 max-width: 100%;
                 height: auto;}
            .reignbg{background-color:#901532;}
-           .reignbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:2%;margin-top:18%;}
-           .reignbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+           .reignbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;padding-bottom:2%;margin-top:18%;}
+           .reignbg p{color:#ffffff;font-family: 'Roboto', sans-serif;}
+           /* .learn{} -----> this is second button class */
          
-           .fremantlemaritimemuseum {color:#000000;}
-           .reckoningbg {background-color:#237477;}
+           .fremantlemaritimemuseum {color:#AD8A51;}
+           .reckoningbg {background-color:#174a4d;}
            .reckoningimage{margin-top:60px;margin-bottom:50px;width: 100%;
             max-width: 100%;
             height: auto;}
-           .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;width:400px;padding-bottom:2%;margin-top:22%;}
-           .reckoningbg p{color:#ffffff;font-family: 'Roboto', sans-serif;width:450px;}
+           .reckoningbg h2{font-family: 'Cinzel', serif;color:#ffffff;font-size: 2em;padding-bottom:2%;margin-top:22%;}
+           .reckoningbg p{color:#ffffff;font-family: 'Roboto', sans-serif;}
+          /*  .member {} ---> this is the last button class */
           
            .btn-primary{
             background-color: #AD8A51; border-color:#ffffff; margin-top:20px;margin-left:200px;
         } /* how to make seperate button classes - so i can move them around seperately? */
         .btn-primary:hover{color:#fff;background-color:#DCB77A;border-color:#AD8A51}
 
-        footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff;}
+        footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff; padding-bottom:5%; padding-top:2%;}
            .westernaustralianmuseum {color:#AD8A51;}
            .footercontact{margin-top:20px;}
            .footeroptions{margin-top:20px;}
