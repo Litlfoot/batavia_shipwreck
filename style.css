@@ -75,6 +75,40 @@ width:840px;
         } /* how to make seperate button classes - so i can move them around seperately? */
         .btn-primary:hover{color:#fff;background-color:#DCB77A;border-color:#AD8A51}
 
+        .about-bg {
+            width: 100%;
+        background: url("images/about_page_bg.jpg") no-repeat center center;
+        background-size: cover;/*make the background image cover the whole div proportionally*/
+        height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+        
+        }
+        .about-title{ 
+            font-size: 4em;
+            color: white;
+            font-weight: 800;
+            margin-top: 9%;
+            padding-bottom: 5%;
+        }
+        
+        .signup-bg {
+            width: 100%;
+        background: url("images/signup_page_bg.jpg") no-repeat center center;
+        background-size: cover;/*make the background image cover the whole div proportionally*/
+        height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
+        
+        }
+
+        .signup-title{ 
+            font-size: 4em;
+            color: white;
+            font-weight: 800;
+            margin-top: 9%;
+            padding-bottom: 5%;
+        }
+        
+        
+        
+
         footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff; padding-bottom:5%; padding-top:2%;}
            .westernaustralianmuseum {color:#AD8A51;}
            .footercontact{margin-top:20px;}
