@@ -10,7 +10,7 @@
                 </div>
                 <div class="col-md-6 order-sm-12">
                 <h2><?php the_field('barbarismtitle'); ?></h2><!--  custom field for the aboutme content-->
-                    <p>After <span class="thebatavia">The Batavia</span> was wrecked, the survivors were left to the
+                <p><!-- <?php the_field('barbarismparagraph'); ?> -->After <span class="thebatavia">The Batavia</span> was wrecked, the survivors were left to the
                         dictatorship of <span class="jeronimuscornelisz">Jeronimus
                             Cornelisz</span>,
                         where
@@ -36,7 +36,7 @@
                             class="maritimemuseumperth">Maritime museum Perth</span>
                         to see this
                         riveting exhibit.</p>
-                    <a class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
+                    <a href="<?php the_field('learnlink'); ?>"class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
                 </div>
                 <div class="col-md-6">
                     <img class="reignimage" src="<?php the_field('reignimage');?>" alt="replica of the ship">
@@ -57,7 +57,7 @@
                         hands cut off before being hung for punishment. By becoming a member you are open to more
                         discounts at the
                         <span class="fremantlemaritimemuseum">Fremantle Maritime Museum.</span>
-                    </p><a class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
+                    </p><a href="<?php the_field('memberlink'); ?>"class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
                 </div>
             </div>
         </div> <!-- container -->
