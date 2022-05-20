@@ -34,7 +34,7 @@
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico"></head>
 
 <body>
-    <header class="container-fluid bg1">
+    <header class="container-fluid signup-bg">
         <!-- div for the main image the stretches to the edge of the page- -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
@@ -60,9 +60,9 @@
                 </ul>
             </div>
         </nav>
-        <div class="tag">
+        <div class="signup-tag">
             <!-- div that holds the content in the middle of the page-->
-            <h1><span class="bataviashipwreck">Batavia Shipwreck</span> Gallery </h1>
+            <h1 class="signup-title"><span class="bataviashipwreck">Batavia Shipwreck</span> Membership</h1>
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
