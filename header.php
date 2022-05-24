@@ -58,7 +58,7 @@ wp_nav_menu( array(
 ?></nav>
         <div class="tag">
             <!-- div that holds the content in the middle of the page-->
-            <h1 class="bataviashipwreck">"><?php the_field('maintagline'); ?></h1>
+            <h1 class="bataviashipwreck"><?php the_field('maintagline'); ?></h1>
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
