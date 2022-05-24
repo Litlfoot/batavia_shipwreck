@@ -34,7 +34,7 @@
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico"></head>
 
 <body>
-    <header class="container-fluid bg1">
+    <header class="container-fluid style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
         <!-- div for the main image the stretches to the edge of the page- -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
@@ -63,4 +63,3 @@ wp_nav_menu( array(
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
-    
