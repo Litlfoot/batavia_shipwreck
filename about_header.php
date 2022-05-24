@@ -61,5 +61,4 @@ wp_nav_menu( array(
             <h1 class="about-title"><span class="bataviashipwreck">Batavia Shipwreck</span> About</h1>
             <!--  the main tag line-->
         </div>
-        <?php wp_head(); ?> <!-- very important that this is added--></header>
-    
+        <?php wp_head(); ?> <!-- very important that this is added--></header>  
