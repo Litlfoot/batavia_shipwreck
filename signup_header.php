@@ -58,7 +58,7 @@ wp_nav_menu( array(
 
 ?><div class="signup-tag">
             <!-- div that holds the content in the middle of the page-->
-            <h1 class="signup-title"><span class="bataviashipwreck">Batavia Shipwreck</span> Membership</h1>
+            <h1 class="signup-title"><?php the_field('signuptitle'); ?></h1>
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
