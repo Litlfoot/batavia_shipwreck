@@ -34,8 +34,7 @@
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico"></head>
 
 <body>
-    <header class="container-fluid style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
-        <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage')?>);"><!-- div for the main image the stretches to the edge of the page- -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#"><img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/wa_museum_black_background.jpg" alt="wa museum logo"></a><!-- Toggler/collapsibe Button -->
@@ -59,7 +58,7 @@ wp_nav_menu( array(
 ?></nav>
         <div class="tag">
             <!-- div that holds the content in the middle of the page-->
-            <h1><span class="bataviashipwreck">Batavia Shipwreck</span> Gallery </h1>
+            <h1 class="bataviashipwreck">"><?php the_field('maintagline'); ?></h1>
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
