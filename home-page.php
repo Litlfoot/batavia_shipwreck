@@ -10,11 +10,7 @@
                 </div>
                 <div class="col-md-6 order-sm-12">
                 <h2><?php the_field('barbarismtitle'); ?></h2><!--  custom field for the aboutme content-->
-                <p><!-- <?php the_field('barbarismparagraph'); ?> -->After <span class="thebatavia">The Batavia</span> was wrecked, the survivors were left to the
-                        dictatorship of <span class="jeronimuscornelisz">Jeronimus
-                            Cornelisz</span>,
-                        where
-                        125 men, women and children were raped and murdered.</p>
+                <p><?php the_field('barbarismparagraph'); ?></p>
 
                     <a href="<?php the_field('exhibitlink'); ?>"class="btn exhibit btn-primary" href="#" role="button">Exhibit&#8594;</a>
                 </div>
