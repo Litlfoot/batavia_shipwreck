@@ -62,4 +62,3 @@ wp_nav_menu( array(
             <!--  the main tag line-->
         </div>
         <?php wp_head(); ?> <!-- very important that this is added--></header>
-    
