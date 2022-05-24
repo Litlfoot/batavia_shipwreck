@@ -34,16 +34,14 @@
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico"></head>
 
 <body>
-    <header class="container-fluid about-bg">
-        <!-- div for the main image the stretches to the edge of the page- -->
+    <header class="container-fluid style="background-size: cover; background-image: url(<?php the_field('aboutbackgound')?>);"><!-- div for the main image the stretches to the edge of the page- -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
             <a class="navbar-brand" href="#"><img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/wa_museum_black_background.jpg" alt="wa museum logo"></a><!-- Toggler/collapsibe Button -->
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
     </button>
-      
-        <?php 
+   <?php 
 
 wp_nav_menu( array(
   'theme_location'  => 'primary',
