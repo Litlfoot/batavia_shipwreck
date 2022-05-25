@@ -9,7 +9,7 @@
             <section class="maintext">              
             <?php 
 $args = array(
-  'category_name' =>  'About page',
+  'category_name' =>  'About',
  // 'posts_per_page'    =>   1
 );
 // the query
