@@ -3,6 +3,6 @@
     Template Name: Signup page
     */
     ?>
-<?php get_header();?>   <!--  Tells WordPress to include header.php -->
+<?php require_once('signup_header.php'); ?>
 
 <?php get_footer();?>   <!-- Tells WordPress to include footer.php   -->
