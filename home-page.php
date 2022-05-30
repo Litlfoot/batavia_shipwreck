@@ -17,8 +17,6 @@
 
             </div> <!-- row -->
         </div> <!-- container -->
-
-
     </section>
     <section class="container-fluid reignbg ">
         <div class="container">
@@ -26,12 +24,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2><?php the_field('reigntitle'); ?></h2>
-                    <p>Cornelisz first ordered all weapons to be handed over to his men and then the slaughter of any
-                        disloyal
-                        survivors by violently slitting their throats or drowning them. Visit the <span
-                            class="maritimemuseumperth">Maritime museum Perth</span>
-                        to see this
-                        riveting exhibit.</p>
+                    <p><?php the_field('reignparagraph'); ?></p>
                     <a href="<?php the_field('learnlink'); ?>"class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
                 </div>
                 <div class="col-md-6">
@@ -48,12 +41,7 @@
                 </div> <!-- row -->
                 <div class="col-md-6">
                     <h2><?php the_field('reckoningtitle'); ?></h2>
-                    <p>After the remaining survivors were rescued, Cornelisz had both his hands cut off and his men had
-                        their right
-                        hands cut off before being hung for punishment. By becoming a member you are open to more
-                        discounts at the
-                        <span class="fremantlemaritimemuseum">Fremantle Maritime Museum.</span>
-                    </p><a href="<?php the_field('memberlink'); ?>"class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
+                    <p><?php the_field('reckoningparagraph'); ?></p><a href="<?php the_field('memberlink'); ?>"class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
                 </div>
             </div>
         </div> <!-- container -->
