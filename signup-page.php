@@ -51,5 +51,16 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
+    <section class="container-fluid payandcond">
+        <div class="container">
+ <div class="row">
+                <div class="col-md-4">
+                <img class="verisignlogo" src="<?php the_field('verisignimage');?>" alt="verisignlogo"></div>
+                <div class="col-md-4">
+                <img class="paymentlogo" src="<?php the_field('paymentimage');?>" alt="visa and mastercard logo "><p><?php the_field('securepayment'); ?></p></div><div class="col-md-4"><a href="<?php the_field('termsandconditions'); ?>"class="btn learn btn-primary" href="#" role="button">Terms and Conditions</a>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
 <?php get_footer();?>   <!-- Tells WordPress to include footer.php   -->
