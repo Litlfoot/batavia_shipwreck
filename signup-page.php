@@ -11,7 +11,6 @@
                 <div class="col-md-6">
                     <h2><?php the_field('membershipintro'); ?></h2>
                     <p><?php the_field('membershipparagraph'); ?></p>
-                    <a href="<?php the_field('learnlink'); ?>"class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
                 </div>
                 <div class="col-md-6">
                     <img class="membershipimage" src="<?php the_field('membershipimage');?>" alt="two boys reading description">
@@ -32,9 +31,9 @@
         <div class="container">
  <div class="row">
                 <div class="col-md-4">
-                <h2><?php the_field('followertab'); ?></h2><div class="col-md-4">
-                <h2><?php the_field('fantab'); ?></h2><div class="col-md-4">
-                <h2><?php the_field('friendtab'); ?></h2>
+                <h2 class="followertab"><?php the_field('followertab'); ?></h2></div><div class="col-md-4">
+                <h2><?php the_field('fantab'); ?></h2></div><div class="col-md-4">
+                <h2><?php the_field('friendtab'); ?></h2></div>
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
