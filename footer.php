@@ -30,7 +30,8 @@ endif; ?><!--  <h3>Location & Hours</h3>
                         <li class="list-item">Open Daily:</li>
                         <li class="list-item">0930Am to 0500Pm</li>
                     </ul> -->
-                </div>
+                    </div>
+                </div> row
             </div><!-- container -->
         </div><!-- container-fluid-->
 
