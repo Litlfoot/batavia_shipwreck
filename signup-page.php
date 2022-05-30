@@ -4,7 +4,7 @@
     */
     ?>
 <?php require_once('signup_header.php'); ?>
-<section class="container-fluid signupintro ">
+<section class="container-fluid signupintro">
         <div class="container">
 
             <div class="row">
@@ -15,6 +15,38 @@
                 </div>
                 <div class="col-md-6">
                     <img class="membershipimage" src="<?php the_field('membershipimage');?>" alt="two boys reading description">
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <section class="container-fluid signupheading">
+        <div class="container">
+ <div class="row">
+                <div class="col-md-12">
+                    <h2><?php the_field('membershipheading'); ?></h2>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <section class="container-fluid membershiptabs">
+        <div class="container">
+ <div class="row">
+                <div class="col-md-4">
+                <h2><?php the_field('followertab'); ?></h2><div class="col-md-4">
+                <h2><?php the_field('fantab'); ?></h2><div class="col-md-4">
+                <h2><?php the_field('friendtab'); ?></h2>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <section class="container-fluid plansdescription">
+        <div class="container">
+ <div class="row">
+                <div class="col-md-4">
+                    <h2><?php the_field('followerheading'); ?></h2><p><?php the_field('followerinfo'); ?></p><a href="<?php the_field('followerlink'); ?>"class="btn learn btn-primary" href="#" role="button">Follower</a>
+                </div><div class="col-md-4">
+                    <h2><?php the_field('fanheading'); ?></h2><p><?php the_field('faninfo'); ?></p><a href="<?php the_field('fanlink'); ?>"class="btn learn btn-primary" href="#" role="button">Fan</a>
+                </div><div class="col-md-4">
+                    <h2><?php the_field('friendheading'); ?></h2><p><?php the_field('friendinfo'); ?></p><a href="<?php the_field('friendlink'); ?>"class="btn learn btn-primary" href="#" role="button">Friend</a>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
