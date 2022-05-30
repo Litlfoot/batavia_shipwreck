@@ -97,7 +97,16 @@ width:840px;
         height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
         
         }
-
+.signup-tag{
+    /*    float:right;  */  /* float the text to the right*/
+    display: flex;
+justify-content: flex-start;
+margin-left: 5%;
+          color:#ffff;/* make the text white*/
+          margin-top:80px;/* the words are 140px away from the navbar in Figma*/
+          text-align:left;
+      padding-bottom: 15%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
+      }
         .signup-title{ 
             font-size: 4em;
             color: white;
@@ -105,8 +114,16 @@ width:840px;
             margin-top: 9%;
             padding-bottom: 5%;
         }
-        
-        
+        .signupintro{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;}
+        .signupintro h2{ margin-top: 19%;}
+        .signupintro p{ margin-top: 9%;}
+        .membershipimage{margin-top: 4%; margin-bottom: 4%;}
+        .signupheading{background-color: #000000; color: #ffffff; text-align:center; padding-top: 4%;
+            padding-bottom: 4%; font-family: 'Roboto', sans-serif;}
+
+        .followertab{background-color: #237477; color: #000000; text-align:center;}
+        .fantab{background-color: #901532; color: #000000; text-align:center;}
+        .friendtab{background-color: #237477; color: #000000; text-align:center;}
         
 
         footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff; padding-bottom:5%; padding-top:2%;}
