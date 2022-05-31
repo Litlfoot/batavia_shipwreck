@@ -121,15 +121,19 @@ margin-left: 5%;
         .signupheading{background-color: #000000; color: #ffffff; text-align:center; padding-top: 4%;
             padding-bottom: 4%; font-family: 'Roboto', sans-serif;}
 
-        .membershiptabs{background-color: #000000;}
-        .followertab{background-color: #237477; color: #000000; text-align:center;}
+        .followertab{background-color: #237477; color: #000000; text-align:center; border-left-width: 50%;}
         .fantab{background-color: #901532; color: #000000; text-align:center;}
         .friendtab{background-color: #237477; color: #000000; text-align:center;}
+
+        .followertab h2{margin-left: 80px;}
 
         .plansdescription{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center;}
         .followerstyle{background-color: #EDE8E8; color: #000000; background-size: cover; border-style: solid;}
         .fanstyle{background-color: #EDE8E8; color: #000000; background-size: cover; border-style: solid;}
         .friendstyle{background-color: #EDE8E8; color: #000000; background-size: cover;border-style: solid;}
+        .btn-primary-plan{
+            background-color: #AD8A51; color:#000000;font-weight: bold; border-radius: 0; margin-bottom: 15%;} /* how to make seperate button classes - so i can move them around seperately? */
+        .btn-primary-plan:hover{background-color:#DCB77A;border-color:#AD8A51}
 
         footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff; padding-bottom:5%; padding-top:2%;}
            .westernaustralianmuseum {color:#AD8A51;}
