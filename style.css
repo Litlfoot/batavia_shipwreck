@@ -121,9 +121,9 @@ margin-left: 5%;
         .signupheading{background-color: #000000; color: #ffffff; text-align:center; padding-top: 4%;
             padding-bottom: 4%; font-family: 'Roboto', sans-serif;}
 
-        .followertab{background-color: #237477; background-size: cover; color: #000000; text-align:center;}
-        .fantab{background-color: #901532; color: #000000; text-align:center;}
-        .friendtab{background-color: #237477; color: #000000; text-align:center;}
+        .followertab{background-color: #237477; background-size: cover; color: #000000; font-weight:bold;text-align:center;}
+        .fantab{background-color: #901532; color: #000000; font-weight:bold; text-align:center;}
+        .friendtab{background-color: #237477; color: #000000; font-weight:bold; text-align:center;}
 
 
         .plansdescription{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center;}
@@ -134,8 +134,14 @@ margin-left: 5%;
             background-color: #AD8A51; color:#000000;font-weight: bold; border-radius: 0; margin-bottom: 15%;} /* how to make seperate button classes - so i can move them around seperately? */
         .btn-primary-plan:hover{background-color:#DCB77A;border-color:#AD8A51}
 
+        .payandcond{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center; padding-top: 5%;}
+        .payandcond p {color:#ffffff;}
         .btn-primary-terms{background-color: #ffffff; color:#000000;border-radius: 0; margin-bottom: 15%;} /* how to make seperate button classes - so i can move them around seperately? */
         .btn-primary-terms:hover{text-decoration: underline;}
+
+        .maincontainer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center;}
+        .maintext {background-color: #000000; color:#ffffff; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center;}
+
 
         footer{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;color:#ffffff; padding-bottom:5%; padding-top:2%;}
            .westernaustralianmuseum {color:#AD8A51;}
