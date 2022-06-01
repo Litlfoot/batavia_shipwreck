@@ -1,6 +1,5 @@
 <footer class="container-fluid">
         <!-- div for the main image to stretch s to the edge of the page-->
-
         <div class="container">
             <!-- div to hold the content in the middle of the page-->
             <div class="row">
@@ -15,7 +14,7 @@ endif; ?><!-- <h3>Contact</h3>
                     <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/facebook_icon.jpg" alt="facebook icon">
                     <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/yout.jpg" alt="youtube icon">
                 --> </div>
-                <div class="col-md-4 footeroptions"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-center') ) : 
+                <div class="col-md-4 footeroptions"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-centred') ) : 
 endif; ?><!-- <p><span class="westernaustralianmuseum">Western Australian Museum</span></p>
                     <p>Membership</p>
                     <p>Donate</p>
@@ -32,9 +31,6 @@ endif; ?><!--  <h3>Location & Hours</h3>
                     </ul> -->
 </div>
                 </div> <!-- row -->
-            </div><!-- container -->
-        </div><!-- container-fluid-->
-
-    </footer><?php wp_footer(); ?></body>
+            </div><!-- container --></div><!-- container-fluid--></footer><?php wp_footer(); ?></body>
 
 </html>
