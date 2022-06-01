@@ -85,7 +85,7 @@ width:840px;
 
         .about-tag{
             /*    float:right;  */  /* float the text to the right*/
-            display: flex;
+            display: flex; font-family: 'Cinzel', serif; width:840px;
     justify-content: flex-start;
     margin-left: 5%;
                   color:#ffff;/* make the text white*/
@@ -112,11 +112,11 @@ width:840px;
         }
 .signup-tag{
     /*    float:right;  */  /* float the text to the right*/
-    display: flex;
+    display: flex; font-family: 'Cinzel', serif; width:840px;
 justify-content: flex-start;
 margin-left: 5%;
           color:#ffff;/* make the text white*/
-          margin-top:80px;/* the words are 140px away from the navbar in Figma*/
+          margin-top:1%;/* the words are 140px away from the navbar in Figma*/
           text-align:left;
       padding-bottom: 15%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
       }
