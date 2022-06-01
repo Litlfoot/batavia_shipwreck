@@ -39,10 +39,10 @@ function footer_left() {
 }
 add_action( 'widgets_init', 'footer_left' );
 ?><?php
-function footer_center() {
+function footer_centred() {
 
   register_sidebar( array(
-    'name'          => 'footer-center',
+    'name'          => 'footer-centred',
     'id'            => 'footer-c',
     'before_widget' => '<div>',
     'after_widget'  => '</div>',
@@ -50,7 +50,7 @@ function footer_center() {
   ) );
 
 }
-add_action( 'widgets_init', 'footer_center' );
+add_action( 'widgets_init', 'footer_centred' );
 ?><?php
 function footer_right() {
 
