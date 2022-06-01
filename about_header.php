@@ -40,8 +40,7 @@
             <a class="navbar-brand" href="#"><img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/wa_museum_black_background.jpg" alt="wa museum logo"></a><!-- Toggler/collapsibe Button -->
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
-    </button>
-   <?php 
+    </button><?php 
 
 wp_nav_menu( array(
   'theme_location'  => 'primary',
@@ -54,7 +53,7 @@ wp_nav_menu( array(
   'walker'          => new WP_Bootstrap_Navwalker(),
 ) );
 
-?><div class="about-tag">
+?></nav><div class="about-tag">
             <!-- div that holds the content in the middle of the page-->
             <h1 class="about-title"><?php the_field('abouttitle'); ?></h1>
             <!--  the main tag line-->
