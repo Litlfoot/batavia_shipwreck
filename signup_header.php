@@ -55,7 +55,7 @@ wp_nav_menu( array(
   'walker'          => new WP_Bootstrap_Navwalker(),
 ) );
 
-?><div class="signup-tag">
+?></nav><div class="signup-tag">
             <!-- div that holds the content in the middle of the page-->
             <h1 class="signup-title"><?php the_field('signuptitle'); ?></h1>
             <!--  the main tag line-->
