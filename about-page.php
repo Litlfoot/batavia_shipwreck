@@ -21,8 +21,9 @@ $the_query = new WP_Query( $args ); ?>
  
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <div class=postx>
     <h2><?php the_title(); ?></h2> 
-    <div>
+    
 <?php
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('thumbnail');
