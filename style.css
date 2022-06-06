@@ -138,6 +138,10 @@ margin-left: 5%;
         .fantab{background-color: #901532; color: #000000; font-weight:bold; text-align:center;}
         .friendtab{background-color: #237477; color: #000000; font-weight:bold; text-align:center;}
 
+        .followerheading{padding-top:10%;}
+        .fanheading{padding-top:10%;}
+        .friendheading{padding-top:10%;}
+
 
         .plansdescription{background-color: #000000; background-size: cover;font-family: 'Roboto', sans-serif;text-align:center;}
         .followerstyle{background-color: #EDE8E8; color: #000000; background-size: cover; border-style: solid;}
