@@ -13,7 +13,7 @@ endif; ?><!-- <h3>Contact</h3>
                     <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/twitter.jpg" alt="twitter icon">
                     <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/facebook_icon.jpg" alt="facebook icon">
                     <img src="http://206.189.45.97/~mesh17/wp-content/themes/batavia_shipwreck/images/yout.jpg" alt="youtube icon">
-                --> </div>
+                --> <!-- </div> -->
                 <div class="col-md-4 footeroptions"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-centred') ) : 
 endif; ?><!-- <p><span class="westernaustralianmuseum">Western Australian Museum</span></p>
                     <p>Membership</p>
@@ -31,6 +31,4 @@ endif; ?><!--  <h3>Location & Hours</h3>
                     </ul> -->
 </div>
                 </div> <!-- row -->
-            </div><!-- container --></div><!-- container-fluid--></footer><?php wp_footer(); ?></body>
-
-</html>
+            </div></footer><?php wp_footer(); ?></body></html>
