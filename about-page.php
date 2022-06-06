@@ -21,7 +21,7 @@ $the_query = new WP_Query( $args ); ?>
  
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-    <div class=postx>
+    <div class="about-heading">
     <h2><?php the_title(); ?></h2> 
     
 <?php
