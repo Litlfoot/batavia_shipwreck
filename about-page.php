@@ -22,13 +22,12 @@ $the_query = new WP_Query( $args ); ?>
     <!-- the loop -->
     <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
     <div class="about-posts">
-    <h2 class="about-heading"><?php the_title('aboutheading'); ?></h2><?php
+    <h2 class="about-heading"><?php the_title(''); ?></h2><?php
                 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('thumbnail');
                 } ?>
 <p class="about-text"><?php the_excerpt(); ?></p></div>
-    <a class="readmore" href="<?php the_permalink(); ?>"> CONTINUE READING</a>
-    <?php endwhile; ?>
+    <a class="btn exhibit btn-primary" href="<?php the_permalink(); ?>"> CONTINUE READING</a><?php endwhile; ?>
     <!-- end of the loop -->
  
     <!-- pagination here -->
