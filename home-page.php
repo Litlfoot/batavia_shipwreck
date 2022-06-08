@@ -10,9 +10,9 @@
                 </div>
                 <div class="col-md-6 order-sm-12">
                 <h2><?php the_field('barbarismtitle'); ?></h2><!--  custom field for the aboutme content-->
-                <p><?php the_field('barbarismparagraph'); ?></p>
+                <!-- <p> --><?php the_field('barbarismparagraph'); ?><!-- </p> -->
 
-                    <a href="<?php the_field('exhibitlink'); ?>"class="btn exhibit btn-primary" href="#" role="button">Exhibit&#8594;</a>
+                    <a href="<?php the_field('exhibitlink'); ?>" class="btn exhibit btn-primary" href="#" role="button">Exhibit&#8594;</a>
                 </div>
 
             </div> <!-- row -->
@@ -24,8 +24,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2><?php the_field('reigntitle'); ?></h2>
-                    <p><?php the_field('reignparagraph'); ?></p>
-                    <a href="<?php the_field('learnlink'); ?>"class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
+                    <!-- <p> --><?php the_field('reignparagraph'); ?><!-- </p> -->
+                    <a href="<?php the_field('learnlink'); ?>" class="btn learn btn-primary" href="#" role="button">Learn more&#8594;</a>
                 </div>
                 <div class="col-md-6">
                     <img class="reignimage" src="<?php the_field('reignimage');?>" alt="replica of the ship">
@@ -41,7 +41,8 @@
                 </div> <!-- row -->
                 <div class="col-md-6">
                     <h2><?php the_field('reckoningtitle'); ?></h2>
-                    <p><?php the_field('reckoningparagraph'); ?></p><a href="<?php the_field('memberlink'); ?>"class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
+                    <!-- <p> --><?php the_field('reckoningparagraph'); ?><!-- </p> -->
+                    <a href="<?php the_field('memberlink'); ?>" class="btn member btn-primary" href="#" role="button">Become a member&#8594;</a>
                 </div>
             </div>
         </div> <!-- container -->
