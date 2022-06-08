@@ -9,8 +9,8 @@
 
             <div class="row">
                 <div class="col-md-6">
-                    <h2><?php the_field('membershipintro'); ?></h2>
-                    <p><?php the_field('membershipparagraph'); ?></p>
+                    <!-- <h2> --><?php the_field('membershipintro'); ?><!-- </h2> -->
+                    <!-- <p> --><?php the_field('membershipparagraph'); ?><!-- </p> -->
                 </div>
                 <div class="col-md-6">
                     <img class="membershipimage" src="<?php the_field('membershipimage');?>" alt="two boys reading description">
@@ -31,11 +31,11 @@
         <div class="container">
  <div class="row">
                 <div class="col-md-4 followerstyle "><h2 class="followertab"><?php the_field('followertab'); ?></h2>
-                    <h2 class="followerheading"><?php the_field('followerheading'); ?></h2><p><?php the_field('followerinfo'); ?></p><a href="<?php the_field('followerlink'); ?>"class="btn learn btn-primary-plan" href="#" role="button">Become a Follower</a>
+                    <h2 class="followerheading"><?php the_field('followerheading'); ?></h2><!-- <p> --><?php the_field('followerinfo'); ?><!-- </p> --><a href="<?php the_field('followerlink'); ?>" class="btn learn btn-primary-plan" href="#" role="button">Become a Follower</a>
                 </div><div class="col-md-4 fanstyle "><h2 class="fantab"><?php the_field('fantab'); ?></h2>
-                    <h2 class="fanheading"><?php the_field('fanheading'); ?></h2><p><?php the_field('faninfo'); ?></p><a href="<?php the_field('fanlink'); ?>"class="btn learn btn-primary-plan" href="#" role="button">Become a Fan</a>
+                    <h2 class="fanheading"><?php the_field('fanheading'); ?></h2><!-- <p> --><?php the_field('faninfo'); ?><!-- </p> --><a href="<?php the_field('fanlink'); ?>" class="btn learn btn-primary-plan" href="#" role="button">Become a Fan</a>
                 </div><div class="col-md-4 friendstyle "><h2 class="friendtab"><?php the_field('friendtab'); ?></h2>
-                    <h2 class="friendheading"><?php the_field('friendheading'); ?></h2><p><?php the_field('friendinfo'); ?></p><a href="<?php the_field('friendlink'); ?>"class="btn learn btn-primary-plan" href="#" role="button">Become a Friend</a>
+                    <h2 class="friendheading"><?php the_field('friendheading'); ?></h2><!-- <p> --><?php the_field('friendinfo'); ?><!-- </p> --><a href="<?php the_field('friendlink'); ?>" class="btn learn btn-primary-plan" href="#" role="button">Become a Friend</a>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -46,7 +46,7 @@
                 <div class="col-md-4">
                 <img class="verisignlogo" src="<?php the_field('verisignimage');?>" alt="verisignlogo"></div>
                 <div class="col-md-4">
-                <img class="paymentlogo" src="<?php the_field('paymentimage');?>" alt="visa and mastercard logo "><p><?php the_field('securepayment'); ?></p></div><div class="col-md-4"><a href="<?php the_field('termsandconditions'); ?>"class="btn learn btn-primary-terms" href="#" role="button">Terms and Conditions</a>
+                <img class="paymentlogo" src="<?php the_field('paymentimage');?>" alt="visa and mastercard logo "> <p><?php the_field('securepayment'); ?></p></div><div class="col-md-4"><a href="<?php the_field('termsandconditions'); ?>" class="btn learn btn-primary-terms" href="#" role="button">Terms and Conditions</a>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
